@@ -1,0 +1,23 @@
+.portrait {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.portrait__btn {
+}
+
+.portrait__slider-body {
+  overflow: hidden;
+}
+
+.portrait__slider-line {
+  display: flex;
+  transition: all ease 1s;
+}
+
+.portrait__slider-el {
+  display: flex;
+  flex-direction: column;
+  row-gap: 5.7vh;
+}
