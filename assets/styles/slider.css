@@ -1,0 +1,48 @@
+.portrait {
+  margin-top: 2vh;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.portrait__title {
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 600;
+  color: #3a3b1b;
+}
+
+.portrait__btn {
+  background-color: white;
+  height: 50%;
+  border: none;
+}
+
+.portrait__img {
+  width: 100%;
+  max-width: 90%;
+  border-radius: 20%;
+}
+
+.portrait__slider-body {
+  overflow: hidden;
+  max-width: 80%;
+  /* background-color: #cbaf8e; */
+  background-color: #e9e1dc;
+  padding: 1vh;
+  border-radius: 8%;
+}
+
+.portrait__slider-line {
+  transition: all ease 1s;
+  display: flex;
+  align-items: center;
+  column-gap: 1vh;
+}
+
+.portrait__slider-el {
+  display: flex;
+  flex-direction: column;
+}
