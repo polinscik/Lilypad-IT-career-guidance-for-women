@@ -246,6 +246,30 @@
 
 /* header end */
 
+/* mission start */
+
+.mission__container {
+    background-color: #e9e1dc;
+    color: #3a3b1b;
+    ;
+    text-align: center;
+
+    font-family: "Inter", sans-serif;
+    font-size: 1.7em;
+    font-weight: 600;
+
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.mission__text {
+    width: 55%;
+
+    margin: 0 auto;
+}
+
+/* mission end */
+
 /* career guidance button start */
 
 .career-guidance-container {
@@ -364,6 +388,9 @@
 
 .links-text {
   width: 30%;
+    padding-left: 5vw;
+    font-size: larger;
+
 }
 
 .links-list {
