@@ -1,3 +1,4 @@
+
 /* переменные */
 :root {
   --color1: #e9e1dc;
@@ -221,3 +222,52 @@
 }
 
 /* header end */
+/* career guidance button start */
+
+.career-guidance-container {
+    background-color: #cbaf8e;
+
+    padding-bottom: 2%;
+}
+
+.career-guidance-text {
+    color: #3a3b1b;
+
+    font-family: 'Inter', sans-serif;
+    font-size: 2em;
+    font-weight: 600;
+
+    padding-top: 2%;
+    text-align: center;
+}
+
+.career-guidance-btn {
+
+    background-color: #3a3b1b;
+    border: 1px solid #3a3b1b;
+    border-radius: 30px;
+    color: #e9e1dc;
+    cursor: pointer;
+    display: flex;
+    font-family: 'Inter', sans-serif;
+    font-size: 1em;
+    font-weight: 600;
+    line-height: 1.7em;
+    margin: 0 auto;
+    outline: none;
+    padding: 1%;
+    text-align: center;
+    text-decoration: none;
+    touch-action: manipulation;
+    transition: 1s;
+    user-select: none;
+    -webkit-user-select: none;
+    /*width: 303px;*/
+}
+
+.career-guidance-btn:hover {
+    border: 1px solid #121308;
+}
+
+/* career guidance button end */
+
