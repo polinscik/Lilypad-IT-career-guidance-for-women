@@ -3,13 +3,57 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/styles/normalize.css" />
+    <link rel="stylesheet" href="./assets/styles/style.css" />
     <title>Document</title>
     <link rel="stylesheet" href="assets/styles/normalize.css" />
     <link rel="stylesheet" href="assets/styles/style.css" />
     <link rel="stylesheet" href="./assets/styles/slider.css" />
   </head>
-
   <body>
+    <header class="header">
+      <div class="header__container container">
+        <!-- logo -->
+        <div class="header__logo-wrap">
+        <a href="#" class="header__logo"
+          ><img
+            src="./assets/images/logo_2.svg"
+            class="header__img"
+            alt="Lilypad"
+          /></a
+        >
+        <p class="header__logo-text">Lilypad</p>
+      </div>
+        <!-- hamburger icon -->
+        <input class="header__side-menu" type="checkbox" id="side-menu" />
+        <label class="header__hamb" for="side-menu"
+          ><span class="header__hamb-line"></span
+        ></label>
+        <!-- menu -->
+        <nav class="header__nav">
+          <ul class="header__list">
+            <li class="header__item">
+              <a href="#mission" class="header__link">Миссия</a>
+            </li>
+            <li class="header__item">
+              <a href="#aboutWomen" class="header__link">О женщинах</a>
+              <li class="header__item">
+                <a href="#profTest" class="header__link">Профориентация</a>
+              </li>
+              <li class="header__item">
+                <a href="#prospects" class="header__link">Перспективы</a>
+              </li>
+            </li>
+            <li class="header__item">
+              <a href="#courses" class="header__link">Курсы</a>
+            </li>
+            <li class="header__item">
+              <a href="#contacts" class="header__link">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
     <main>
       <div class="portrait__wrapper">
         <h2 class="portrait__title">Знаменитые женщины в сфере IT</h2>
